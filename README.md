@@ -53,9 +53,9 @@ contract MyToken {
     // mapping variable here
     mapping(address => uint)public balance;
     // mint function
-    function mint(address _inpaddr, uint  _inpval)public {
-      totalsupply += _inpval;
-      balance[_inpaddr] += _inpval;
+    function mint(address _intokenaddr, uint  _intokenno)public {
+      totalsupply += _intokenno;
+      balance[_intokenaddr] += _intokenno;
    }
     // burn function
    function burn(address _intokenaddr, uint _intokenno)public {
