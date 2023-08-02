@@ -47,9 +47,9 @@ pragma solidity 0.8.18;
 contract MyToken {
 
     // public variables here
-    string public tokenname="monster";
-    string public tokenabbrv="MTR";
-    uint public totalsupply=1000;
+    string public tokenname="Doug Judy";
+    string public tokenabbrv="DG";
+    uint public totalsupply=100;
     // mapping variable here
     mapping(address => uint)public balance;
     // mint function
@@ -58,10 +58,10 @@ contract MyToken {
       balance[_inpaddr] += _inpval;
    }
     // burn function
-   function burn(address _inpaddr, uint _inpval)public {
-      if(balance[_inpaddr]>= _inpval){
-        totalsupply -= _inpval;
-        balance[_inpaddr] -= _inpval;
+   function burn(address _intokenaddr, uint _intokenno)public {
+      if(balance[_intokenaddr]>= _intokenno){
+        totalsupply -= _intokenno;
+        balance[_intokenaddr] -= _intokenno;
       }
      }
   }
@@ -76,10 +76,10 @@ Once the contract is deployed, you can interact with it by calling the burn or m
 
 ## Authors
 
-Shashidhar A 
+Vaishnavi M N
 
 
-sshashidhar748@gmail.com
+mnvaishnavi334@gmail.com
 
 
 ## License
