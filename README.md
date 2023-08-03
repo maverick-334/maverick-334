@@ -4,19 +4,23 @@ This Solidity program performs the task of minting,burning and also to display t
 
 ## Description
 
-This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract contains mapping of addresses to balances that returns the token/coin balance. This program also contains use of functions to mint and burn tokens and it also contains a conditional statement to check the condition.This program basically contains all the basic things that are used in solidity to understand the basics.
-
 BRIEF CODE EXPLANATION
-1-The  mint function takes two parameters-  address and a value. The function then increases the total supply by that number and increases the balance of the address by that amount.
+
+This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. 
+
+1-The contract contains mapping of addresses to balances that returns the token/coin balance. This program also contains use of functions to mint and burn tokens and it also contains a conditional statement to check the condition.This program basically contains all the basic things that are used in solidity to understand the basics.
 
 
-2-The  burn function takes two parameters-  address and a value. The function then decreases the total supply by that number and decreases the balance of the address by that amount.
+2-The  mint function takes two parameters-  address and a value. The function then increases the total supply by that number and increases the balance of the address by that amount.
 
 
-3-The connditional statement (if ) checks if the input tokens entered by the user is lesserthan or equal to the balance of the tokens.If the condition is true then burn function takes place.
+3-The  burn function takes two parameters-  address and a value. The function then decreases the total supply by that number and decreases the balance of the address by that amount.
 
 
-4-When the address is  passed  with the balance , the balance returns the token balance.
+4-The connditional statement (if ) checks if the input tokens entered by the user is lesserthan or equal to the balance of the tokens.If the condition is true then burn function takes place.
+
+
+5-When the address is  passed  with the balance , the balance returns the token balance.
 on clicking total balance also the token balance is showed.
 ## Getting Started
 
